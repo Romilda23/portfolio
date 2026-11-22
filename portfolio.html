@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato:wght@300;400;700;900&family=Niconne&family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="portfolio.css">
+    <title>RJ Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header id="head">
+        <nav class="navbar-content">
+            <img src="assets/logo.png" alt="Logo" class="logo">
+
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+
+                <li class="dropdown">
+                    <a href="#portfolio">Portfolio </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+
+    <section id="home">
+
+        <div class="home-content">
+
+            <h1 class="greet">Hello...</h1>
+
+            <h1 class="nameintro">I am Romilda</h1>
+
+            <p class="intro">
+                <span>MERN Stack Developer</span><br>
+                Computer Science Engineer & MERN Stack Developer
+                building responsive, full-stack web applications
+                with React, Node.js, Express and MongoDB.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#portfolio" class="work">View My Work</a>
+                <a href="assets/resume.pdf" download class="resume">
+                    View My Resume
+                </a>
+            </div>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/romilda23-j/" target="_blank">
+                    <img src="assets/linkedin.png" alt="LinkedIn" class="linkedin">
+                </a>
+
+                <a href="https://github.com/Romildajayaraj" target="_blank">
+                    <img src="assets/github.png" alt="GitHub" class="github">
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- Profile Photo -->
+
+        <div class="box1">
+            <div class="box2">
+
+                <img src="assets/me.png" alt="Romilda" id="me">
+
+                <div class="label1">
+                    Web Developer<br>MERN Stack
+                </div>
+
+                <div class="label2">
+                    Clean Code<br>Modern UI
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Divider -->
+
+    <img src="assets/line.png" alt="" class="line1">
+
+
+    <!-- About Section -->
+
+    <section id="about">
+
+        <div class="about-content">
+
+            <h1 class="about-heading">About Me</h1>
+
+            <h2 class="about-subheading">
+                I'm a passionate MERN Stack Developer
+            </h2>
+
+            <p class="about-intro">
+                A passionate web developer who enjoys creating
+                modern, responsive and user-friendly web applications.
+                I love combining clean design with functional
+                development to create meaningful digital experiences.
+
+                <br><br>
+
+                My development journey has helped me work with
+                technologies like React, JavaScript, Node.js,
+                Express and MongoDB. I'm always interested in
+                learning new technologies and improving my skills
+                by building real-world projects.
+            </p>
+
+        </div>
+
+        <img src="assets/mee.png" alt="About Romilda" class="mee">
+
+    </section>
+
+
+    <!-- Divider -->
+
+    <img src="assets/line.png" alt="" class="line2">
+
+
+    <!-- Portfolio Section -->
+
+    <section id="portfolio">
+
+        <h1 class="portfolio-heading">Portfolio</h1>
+
+        <div class="portfolio-item" id="skills">
+
+            <h2 class="skills">My Skills</h2>
+
+            <div class="skill">
+                <label for="html">HTML - 90%</label>
+                <progress id="html" value="90" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <label for="css">CSS - 80%</label>
+                <progress id="css" value="80" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <label for="js">JavaScript - 30%</label>
+                <progress id="js" value="30" max="100"></progress>
+            </div>
+
+            <!-- <div class="skill">
+                <label for="react">React</label>
+                <progress id="react" value="80" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <label for="node">Node.js</label>
+                <progress id="node" value="70" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <label for="express">Express</label>
+                <progress id="express" value="60" max="100"></progress>
+            </div>
+
+            <div class="skill">
+                <label for="mongo">MongoDB</label>
+                <progress id="mongo" value="70" max="100"></progress>
+            </div> -->
+
+        </div>
+
+    </section>
+
+   
+    <section id="project">
+        <div id="project1">
+            <h1 class="projectname">My Projects</h1>
+            <h1 class="projectsubhead">Things I've built</h1>
+            <div class="projects">
+
+                <div id="projectcard1">
+                    <h1 class="pr1title">The Wedding Story</h1>
+                    <img src="assets/invitation.png" alt="wedding card" class="invitaion">
+                    <p class="wedpara">
+                        A beautifully designed digital wedding invitation that brings 
+                        traditional wedding elements into a modern web experience. 
+                        Created with HTML and CSS, featuring elegant animations, 
+                        interactive curtain opening effects, and traditional decorative elements.
+                    </p>
+                    <h3 class="techstacks1">Tech Stacks</h3>
+                    <button class="html51">HTML5</button>
+                    <button class="css31">CSS3</button>
+                    <h3 class="role1">Designed and developed the complete wedding invitation interface, focusing on visual aesthetics, CSS animations, layout styling, and interactive user experience.</h3>
+                    <button class="live1">Live Demo</button>
+                    <button class="code1">View source code</button>
+                </div>
+                    
+                <div id="projectcard2">
+                    <h1 class="pr2title">Coffee Shop</h1>
+                    <img src="assets/coffee.png" alt="wedding card" class="invitaion">
+                    <p class="coffeepara">
+                        A modern and visually appealing coffee shop website designed to create a warm and welcoming online experience. Built using HTML and CSS, featuring an elegant layout, attractive coffee visuals, stylish typography, and a user-friendly design.
+                    </p>
+                    <h3 class="techstacks2">Tech Stacks</h3>
+                    <button class="html52">HTML5</button>
+                    <button class="css32">CSS3</button>
+                    <h3 class="role2">Designed and developed the coffee shop website interface, focusing on modern visual design, attractive product presentation, responsive layouts, and smooth CSS hover effects to enhance the overall user experience.</h3>
+                    <button class="live2">Live Demo</button>
+                    <button class="code2">View source code</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="certifications">
+        <h1 class="certhead">My Certifications</h1>
+        <div class="certi-content">
+            <img src="assets/guvi.png" alt="guvi certificate" class="guvicert">
+            <h1 class="certconthead">Organisation: GUVI</h1>
+            <p class="certcontpara">
+                Successfully completed the MERN Full Stack Development program at GUVI, gaining practical knowledge in frontend and backend web development. Developed hands-on skills in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js, along with HTML, CSS, and JavaScript.
+            </p>
+
+            <ul class="certcontli">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>Rest API</li>
+            </ul>
+            <p class="certcontpara2">
+                Completed structured training and hands-on development tasks, gaining practical experience in creating responsive user interfaces, developing backend APIs, managing databases, and integrating frontend and backend functionalities. Also completed a final full-stack project as part of the program.
+            </p>
+            <button class="viewcert"><a href="#">View Certificate</a></button>
+
+        </div>
+    </section>
+
+
+
+    <section id="education">
+        <div class="edu-content">
+        <h1 class="educationhead">Education</h1>
+        <hr class="vertline">
+        <div class="point1"></div>
+        <div class="point2"></div>
+        <div class="point3"></div>
+
+        <div class="educard1">
+            <img src="assets/DSU.jpg" alt="dsu image" class="dsu">
+            <p class="edu1cont">
+                <span class="educont">College: </span> Dhanalakshmi Srinivasan University <br>
+                <span class="educont">Year: </span>2022 - 2026 <br>
+                <span class="educont">Degree: </span>B. Tech Computer Science & Engineering <br>
+                <span class="educont">CGPA: </span>6.5
+            </p>
+        </div>
+
+        <div class="educard2">
+            <img src="assets/cgs.jpg" alt="cgs image" class="cgs">
+            <p class="edu2cont">
+                <span class="educont">Qualification: </span> HSLC <br>
+                <span class="educont">School: </span> Cauvery Global School <br>
+                <span class="educont">Year: </span> 2020<br>
+                <span class="educont">Percentage: </span>62%
+            </p>
+        </div>
+
+         <div class="educard3">
+            <img src="assets/cgs.jpg" alt="cgs image" class="cgs">
+            <p class="edu3cont">
+                <span class="educont">Qualification: </span> SSLC <br>
+                <span class="educont">School: </span> Cauvery Global School <br>
+                <span class="educont">Year: </span> 2018<br>
+                <span class="educont">Percentage: </span>61%
+            </p>
+        </div>
+
+        </div>
+    </section>
+
+    <img src="assets/line.png" alt="line" class="line3">
+
+    <section id="contact">
+        <h2 class="connect">Let's connect</h2>
+        <div class="contact-cont">
+            <div class="contact1">
+                <h1 class="cont1head">Let's create something amazing.</h1>
+                <p class="cont1para">
+                    Have a project in mind or looking for a frontend devloper? Let's talk!
+                </p>
+                <hr>
+                <h1 class="continfo">Contact Information</h1>
+                <img src="assets/gmail.png" alt="gmail" class="gmail">
+                <h1 class="emailname">Email</h1>
+                <p class="mailid">- romilda23j@gmail.com</p>
+                <img src="assets/location.png" alt="location" class="location">
+                <h1 class="locname">Location</h1>
+                <p class="place">- Tamil Nadu, India</p>
+                <p class="social">Social Media</p>
+                <img src="assets/linkedin.png" alt="linkedin" class="linked">
+                <img src="assets/github.png" alt="git" class="git">
+            </div>
+
+            <div class="contact2">
+                <form class="form">
+                    <h1 class="formhead">Send me a message</h1>
+
+                    <label for="name" class="name">Your Name</label><br>
+                    <input type="text" class="namee" name="name" placeholder="Enter your name" required><br><br>
+
+                    <label for="email" class="email">Email Address</label><br>
+                    <input type="email" class="mail" name="email" placeholder="Enter your email" required><br><br>
+
+                    <label for="subject" class="msg">Message</label><br>
+                    <input type="text" class="message" name="message" placeholder="Write your message" required><br><br>
+
+                    <button type="submit" class="submit">Send Message &rarr;</button>
+                </form>
+            </div>
+        </div>
+        <hr class="lastline">
+        <h4 class="lastcont">&copy; 2026 Romilda. All rights reserved.</h4>
+    </section>
+
+</body>
+</html>
